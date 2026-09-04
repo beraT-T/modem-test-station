@@ -1,0 +1,24 @@
+# Log dosyalari
+*.log
+modem_test.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# KiCad yedek/gecici
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gizli config (sifreler)
+config.local.json

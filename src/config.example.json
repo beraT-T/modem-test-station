@@ -1,0 +1,8 @@
+{
+  "_aciklama": "Gizli degerler. Bu dosyayi config.local.json olarak kopyalayip gercek sifreleri yaz. config.local.json git'e GIRMEZ.",
+  "mgmt_ssid": "YONETIM_AGI_SSID",
+  "mgmt_pass": "YONETIM_AGI_SIFRE",
+  "modem_wifi_pass": {
+    "1": "MODEM_1_WIFI_SIFRESI"
+  }
+}

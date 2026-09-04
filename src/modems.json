@@ -1,0 +1,25 @@
+{
+  "_aciklama": "Modem tanimlari. Yeni modem eklemek icin yeni bir ID (sonraki sayi) ekle. Her alan asagida acikli.",
+  "_alanlar": {
+    "isim": "Modemin okunabilir adi (menude gorunur)",
+    "lan_port_count": "LAN portu sayisi (en fazla 4). WAN her modemde 1 varsayilir.",
+    "lan_gateway": "Modemin LAN tarafi gateway IP'si (W5500'ler buna baglanir)",
+    "wifi_ssid": "Test edilecek modemin WiFi SSID'si (reset sonrasi / arayuzden)",
+    "wifi_pass": "Modemin WiFi sifresi",
+    "wifi_gw": "WiFi tarafi gateway (genelde lan_gateway ile ayni)",
+    "notlar": "Serbest not alani (MAC prefix, reset yontemi vb.)"
+  },
+
+  "modemler": {
+    "1": {
+      "isim": "Zyxel AX3000",
+      "lan_port_count": 3,
+      "lan_gateway": "192.168.1.1",
+      "wifi_ssid": "FiberHGW_ZYE99C",
+      "wifi_pass": "__CONFIG__",
+      "wifi_gw": "192.168.1.1",
+      "notlar": "WAN varsayilan modu DHCP (Ethernet/Dynamic). WAN MAC prefix 70:49:a2. Reset: fiziksel buton."
+    }
+
+  }
+}
